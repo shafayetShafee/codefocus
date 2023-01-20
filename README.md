@@ -21,7 +21,7 @@ I would like to know whether it is useful as custom format. If not, I need help 
 
 
 ```bash
-quarto use template shafayetShafee/codeFocus>
+quarto use template shafayetShafee/codeFocus
 ```
 
 This will install the extension and create an example qmd file that you can use as a starting place for your article.
