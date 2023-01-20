@@ -1,0 +1,13 @@
+title: CodeFocus
+author: shafayetShafee
+version: 1.0.0
+quarto-required: ">=1.2.0"
+contributes:
+  formats:
+    revealjs:
+      theme: [default, custom.scss]
+      # logo: logo.svg
+      template: template.html
+      # filters:
+      #   - codefocus.lua
+

@@ -1,0 +1,57 @@
+---
+title: Code Focus
+format:
+  codeFocus-revealjs:
+    codeFocus-bgcolor: '#A9F9D1'
+author: shafayetShafee
+date: last-modified
+execute: 
+  echo: true
+---
+
+## Introduction
+
+
+```{r}
+# this is some comment
+# this is more comment
+```
+
+
+::: {.fragment data-code-focus="1"}
+When this fragment is shown, the first line of code (`span.line`) will have the `"focus"` class added to it.
+:::
+
+::: {.fragment data-code-focus="1-2"}
+ Another fragment. This time, both lines will now have the `"focus"` class.
+:::
+
+
+## More Examples
+
+```{r}
+a <- 1
+b <- 2
+c <- 1 + 2
+```
+
+Then, 
+
+```{r}
+print(c)
+```
+
+
+::: {.fragment data-code-focus="1-2"}
+Here we have declared two variables
+:::
+
+
+::: {.fragment data-code-focus="3"}
+Then added them and passed them to c
+:::
+
+::: {.fragment data-code-focus="1" data-code-block="2"}
+Then print the c
+:::
+

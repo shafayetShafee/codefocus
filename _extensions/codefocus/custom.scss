@@ -1,0 +1,38 @@
+/*-- scss:defaults --*/
+
+/* TODO: Customize presentation appearance by setting SCSS variables */
+/* See https://quarto.org/docs/presentations/revealjs/themes.html#customizing-themes */
+
+/*-- scss:rules --*/
+
+/* TODO: Provide custom CSS rules */
+.line { display: block !important; }
+.line.focus { background: #F8D76B; }
+
+
+pre.numberSource code > span.line > span > a:first-child::before {
+    left: -0.7em !important;
+}
+
+pre>code.sourceCode > span.line > span >a:first-child::before {
+    text-decoration: none;
+}
+
+pre.numberSource code > span.line > span > a:first-child::before {
+    content: counter(source-line);
+    position: relative;
+    left: -1em;
+    text-align: right;
+    vertical-align: baseline;
+    border: none;
+    display: inline-block;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0 4px;
+    width: 4em;
+    color: #aaaaaa;
+}

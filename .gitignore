@@ -1,0 +1,6 @@
+template_files/
+template.html
+*.rproj
+.Rhistory
+.Rproj.user/
+!docs/*
