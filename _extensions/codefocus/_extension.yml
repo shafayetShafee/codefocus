@@ -6,8 +6,6 @@ contributes:
   formats:
     revealjs:
       theme: [default, custom.scss]
-      # logo: logo.svg
       template: template.html
-      # filters:
-      #   - codefocus.lua
-
+      format-resources:
+        - "resources/reveal-code-focus.js"
