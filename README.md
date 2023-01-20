@@ -2,6 +2,8 @@
 
 I would like to know whether it is useful as custom format. If not, I need help to convert this as a revealjs plugin quarto extension.
 
+You can view live demo of rendered document [here](https://shafayetshafee.github.io/codeFocus/template.html) 
+
 - Firstly, I have tried to implement [`reveal-code-focus`](https://github.com/bnjmnt4n/reveal-code-focus) as a [plugin](https://quarto.org/docs/extensions/revealjs.html), but sadly enough (I tried for hours (actually the whole day)) but my newbie rusty javascript knowledge would not allow me to convert the actual [`reveal-code-focus.js`](https://github.com/bnjmnt4n/reveal-code-focus/blob/master/reveal-code-focus.js) file as a plugin (could not change that `iife` function to [the form](https://quarto.org/docs/extensions/revealjs.html#example-attribution) similar to the form shown in the case of [`attribution.js` in the docs](https://quarto.org/docs/extensions/formats.html#example-revealjs))
 
 - So then, I resorted to implement this as a custom format.
@@ -26,6 +28,4 @@ quarto use template shafayetShafee/codeFocus
 
 This will install the extension and create an example qmd file that you can use as a starting place for your article.
 
-
-You can view live demo of rendered document [here](https://shafayetshafee.github.io/line-highlight/template.html) 
 

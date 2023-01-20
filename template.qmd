@@ -1,8 +1,8 @@
 ---
 title: Code Focus
 format:
-  codeFocus-revealjs:
-    codeFocus-bgcolor: '#A9F9D1'
+  codefocus-revealjs:
+    codefocus-bgcolor: '#A9F9D1'
 author: shafayetShafee
 date: last-modified
 execute: 
