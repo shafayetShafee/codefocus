@@ -16,11 +16,18 @@ You can view live demo of rendered document [here](https://shafayetshafee.github
 
 - There was some problem with source code line numbers. Because since an extra `span` with class `line` gets added, existing css for showing line number was not working. So I have changed that a bit `in custom.scss`.
 
+## Ongoing problem
+
+- This existing custom format installs fine. But the could not compile the template file provided with installed template. The whole things runs fine and generates the temporary md file, but then getting the error (`system could not find the template.html file`). So for now to test this, I would request to clone this repo and render the `template.qmd` directly in the cloned directory.
+
+**Thanks.**
+
 
 # `codeFocus-revealjs` Format
 
 ## Installing
 
+**Do not install this now.**
 
 ```bash
 quarto use template shafayetShafee/codeFocus
