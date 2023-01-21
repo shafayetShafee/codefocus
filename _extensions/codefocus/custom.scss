@@ -1,13 +1,9 @@
 /*-- scss:defaults --*/
-
-/* TODO: Customize presentation appearance by setting SCSS variables */
-/* See https://quarto.org/docs/presentations/revealjs/themes.html#customizing-themes */
+$codefocus-bgcolor: #F8D76B !default;
 
 /*-- scss:rules --*/
-
-/* TODO: Provide custom CSS rules */
 .line { display: block !important; }
-.line.focus { background: #F8D76B; }
+.line.focus { background: $codefocus-bgcolor; }
 
 
 pre.numberSource code > span.line > span > a:first-child::before {

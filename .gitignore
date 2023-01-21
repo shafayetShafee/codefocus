@@ -1,5 +1,8 @@
 template_files/
 template.html
+reveal-code-focus.js
+!_extensions/codefocus/reveal-code-focus.js
+!_extensions/*
 *.rproj
 .Rhistory
 .Rproj.user/
