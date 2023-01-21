@@ -1,1 +1,2 @@
-_extension/codefocus/template.html -linguist-vendored
+_extensions/codefocus/template.html -linguist-vendored
+docs/**
