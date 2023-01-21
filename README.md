@@ -89,10 +89,6 @@ Its possible to add these following options under the format,
 
 <hr>
 
-## TODO:
-
-- Add support for [`data-trim`](https://github.com/bnjmnt4n/reveal-code-focus#data-trim)
-
 ## Need help
 
 Firstly, I would like to know whether it is useful as custom format. If not, I need help to convert this as a revealjs plugin quarto extension.
