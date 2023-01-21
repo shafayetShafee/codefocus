@@ -5,7 +5,6 @@ $codefocus-bgcolor: #F8D76B !default;
 .line { display: block !important; }
 .line.focus { background: $codefocus-bgcolor; }
 
-
 pre.numberSource code > span.line > span > a:first-child::before {
     left: -0.7em !important;
 }

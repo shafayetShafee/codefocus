@@ -3,6 +3,7 @@ title: Revealjs Code Focus
 format:
   codefocus-revealjs:
     bgcolor: '#A9F9D1'
+    # scrollToFocused: false
 author: shafayetShafee
 date: last-modified
 execute: 
@@ -19,11 +20,11 @@ execute:
 
 
 ::: {.fragment data-code-focus="1"}
-When this fragment is shown, the first line of code (`span.line`) will have the `"focus"` class added to it.
+When this fragment is shown, the first line of code will have the `focus` class added to it and it gets highlighted.
 :::
 
 ::: {.fragment data-code-focus="1-2"}
- Another fragment. This time, both lines will now have the `"focus"` class.
+ Another fragment. This time, both lines will now have the `focus` class.
 :::
 
 
