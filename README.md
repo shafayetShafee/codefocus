@@ -20,6 +20,8 @@ You can view live demo of rendered document [here](https://shafayetshafee.github
 
 - This existing custom format installs fine. But the could not compile the template file provided with installed template. The whole things runs fine and generates the temporary md file, but then getting the error (`system could not find the template.html file`). So for now to test this, I would request to clone this repo and render the `template.qmd` directly in the cloned directory.
 
+(Got the idea how to solve this problem. See the issue [#1](https://github.com/shafayetShafee/codeFocus/issues/1))
+
 **Thanks.**
 
 
