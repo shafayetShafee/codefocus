@@ -1,2 +1,2 @@
 _extensions/codefocus/template.html -linguist-vendored
-docs/**
+docs/** linguist-vendored
