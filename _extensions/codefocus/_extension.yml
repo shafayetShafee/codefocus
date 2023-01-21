@@ -8,4 +8,4 @@ contributes:
       theme: [default, custom.scss]
       template: template.html
       format-resources:
-        - "resources/reveal-code-focus.js"
+        - "reveal-code-focus.js"
