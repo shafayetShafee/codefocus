@@ -89,7 +89,7 @@ Its possible to add these following options under the format,
 
 <hr>
 
-## Need help
+## Help me to Improve this Extension
 
-[need-help.md](https://shafayetshafee.github.io/codefocus/need-help.md)
+[need-help.md](https://github.com/shafayetShafee/codefocus/blob/main/need-help.md)
 
